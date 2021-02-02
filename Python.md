@@ -28,6 +28,8 @@
 * removes item at idx
 
 ### Basic List Comprehension
+#### Syntax: [expression for item in list]
+#### Example
 Lets say we input a long list of numbers.
 ```python
 # long way to solve problem:
