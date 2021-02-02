@@ -27,6 +27,20 @@
 ### remove(idx): 
 * removes item at idx
 
+### Basic List Comprehension
+Lets say we input a long list of numbers.
+```python
+# long way to solve problem:
+s = input() # input: "1 2 3 4"
+l = s.split("") # ["1", "2", "3", "4"]
+# We now have a list of ints as strings
+# To use as ints, we need to do int() every time
+ 
+# Instead use list comprehension: 
+l = [int(x) for x in input().split("")]
+```
+
+
 ***
 
 ## Strings
